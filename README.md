@@ -4,8 +4,6 @@
 
 This application demonstrates the use of HTTP Basic Authentication, an insecure protocol often used in early web applications. The goal of this lab is to help you understand how credentials are transmitted over the network in plain text when not using HTTPS. By running this application and analyzing the network traffic with Wireshark, you will learn why secure protocols like HTTPS are essential.
 
----
-
 ## Requirements
 
 Before starting, ensure your machine meets the following requirements:
@@ -21,16 +19,17 @@ Before starting, ensure your machine meets the following requirements:
 3. **Terminal or Command Prompt**  
    - Access to a terminal or command-line tool to run the application and make HTTP requests.
 
----
+
 
 ## Instructions
 
 ### Step 1: Clone the Repository
 
 1. Download or clone this repository to your machine:
-  ```bash
-  git clone https://github.com/w-squared/wireshark-lab.git
-  cd wireshark-lab
+   ```bash
+   git clone https://github.com/w-squared/wireshark-lab.git
+   cd wireshark-lab
+   ```
 
 ### Step 2: Run the Application
 
