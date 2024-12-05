@@ -45,8 +45,9 @@ Before starting, ensure your machine meets the following requirements:
 1. Open Wireshark.
 2. Start a packet capture on the network interface used for local traffic (e.g., lo0 on macOS/Linux or Loopback on Windows).
 3. Filter traffic in Wireshark using the following filter:
-4. Copy code
-5. http
+   ```bash
+   http
+   ```
 
 ### Step 4: Trigger an HTTP Request
 
